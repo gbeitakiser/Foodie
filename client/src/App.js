@@ -1,9 +1,12 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-
+import Restaurants from "./Pages/Restaurants";
 
 function App() {
-  return (
+  return ( 
+    <div>
+      <Restaurants />
+    </div>
+
   );
 }
 
