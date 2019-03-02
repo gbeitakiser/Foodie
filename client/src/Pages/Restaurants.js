@@ -16,26 +16,33 @@ const Restaurants = () => (
     <Menu fixed='top' inverted>
       <Container>
         <Menu.Item as='a' header>
-          <Image size='mini' src='/logo.png' style={{ marginRight: '1.5em' }} />
-          Project Name
+          {/* <Image size='mini' src='/logo.png' style={{ marginRight: '1.5em' }} /> */}
+          Yowl
         </Menu.Item>
         <Menu.Item as='a'>Home</Menu.Item>
 
-        <Dropdown item simple text='Dropdown'>
+        <Dropdown item simple text='Menu'>
           <Dropdown.Menu>
-            <Dropdown.Item>List Item</Dropdown.Item>
-            <Dropdown.Item>List Item</Dropdown.Item>
+            <Dropdown.Item>Restaurant List</Dropdown.Item>
+            <Dropdown.Item>Restaurant Map</Dropdown.Item>
             <Dropdown.Divider />
-            <Dropdown.Header>Header Item</Dropdown.Header>
+            <Dropdown.Header>Categories</Dropdown.Header>
             <Dropdown.Item>
               <i className='dropdown icon' />
-              <span className='text'>Submenu</span>
+              <span className='text'>Cusines</span>
               <Dropdown.Menu>
-                <Dropdown.Item>List Item</Dropdown.Item>
-                <Dropdown.Item>List Item</Dropdown.Item>
+                <Dropdown.Item>BBQ</Dropdown.Item>
+                <Dropdown.Item>Mexican</Dropdown.Item>
+                <Dropdown.Item>Italian</Dropdown.Item>
+                <Dropdown.Item>Sushi</Dropdown.Item>
+                <Dropdown.Item>Thai</Dropdown.Item>
+                <Dropdown.Item>Chinese</Dropdown.Item>
+                <Dropdown.Item>Veitnamese</Dropdown.Item>
+                <Dropdown.Item>French</Dropdown.Item>
+                <Dropdown.Item>Indian</Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown.Item>
-            <Dropdown.Item>List Item</Dropdown.Item>
+            <Dropdown.Item>This Can Be Whatever We Want!</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
       </Container>
@@ -48,13 +55,13 @@ const Restaurants = () => (
         A text container is used for the main container, which is useful for single column layouts.
       </p>
 
-      <Image src='/images/wireframe/media-paragraph.png' style={{ marginTop: '2em' }} />
+      {/* <Image src='/images/wireframe/media-paragraph.png' style={{ marginTop: '2em' }} />
       <Image src='/images/wireframe/paragraph.png' style={{ marginTop: '2em' }} />
       <Image src='/images/wireframe/paragraph.png' style={{ marginTop: '2em' }} />
       <Image src='/images/wireframe/paragraph.png' style={{ marginTop: '2em' }} />
       <Image src='/images/wireframe/paragraph.png' style={{ marginTop: '2em' }} />
       <Image src='/images/wireframe/paragraph.png' style={{ marginTop: '2em' }} />
-      <Image src='/images/wireframe/paragraph.png' style={{ marginTop: '2em' }} />
+      <Image src='/images/wireframe/paragraph.png' style={{ marginTop: '2em' }} /> */}
     </Container>
 
     <Segment inverted vertical style={{ margin: '5em 0em 0em', padding: '5em 0em' }}>
@@ -96,7 +103,7 @@ const Restaurants = () => (
         </Grid>
 
         <Divider inverted section />
-        <Image centered size='mini' src='/logo.png' />
+        {/* <Image centered size='mini' src='/logo.png' /> */}
         <List horizontal inverted divided link size='small'>
           <List.Item as='a' href='#'>
             Site Map
