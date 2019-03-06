@@ -49,10 +49,10 @@ const Restaurants = () => (
     </Menu>
 
     <Container text style={{ marginTop: '7em' }}>
-      <Header as='h1'>Semantic UI React Fixed Template</Header>
-      <p>This is a basic fixed menu template using fixed size containers.</p>
+      <Header as='h1'>..."Food tells you a story about a person. Where they have been, who they are, what their experiences in life have been"...</Header>
+      <p>Our aim is to connect you with that story.</p>
       <p>
-        A text container is used for the main container, which is useful for single column layouts.
+        <b>I AM BARACK OBAMA</b>
       </p>
 
       {/* <Image src='/images/wireframe/media-paragraph.png' style={{ marginTop: '2em' }} />
@@ -68,30 +68,30 @@ const Restaurants = () => (
       <Container textAlign='center'>
         <Grid divided inverted stackable>
           <Grid.Column width={3}>
-            <Header inverted as='h4' content='Group 1' />
+            <Header inverted as='h4' content='Yowl' />
             <List link inverted>
-              <List.Item as='a'>Link One</List.Item>
-              <List.Item as='a'>Link Two</List.Item>
-              <List.Item as='a'>Link Three</List.Item>
-              <List.Item as='a'>Link Four</List.Item>
+              <List.Item as='a'>Careers</List.Item>
+              <List.Item as='a'>Press</List.Item>
+              <List.Item as='a'>Policies</List.Item>
+              <List.Item as='a'>Help</List.Item>
             </List>
           </Grid.Column>
           <Grid.Column width={3}>
-            <Header inverted as='h4' content='Group 2' />
+            <Header inverted as='h4' content='Site Map' />
             <List link inverted>
-              <List.Item as='a'>Link One</List.Item>
-              <List.Item as='a'>Link Two</List.Item>
-              <List.Item as='a'>Link Three</List.Item>
-              <List.Item as='a'>Link Four</List.Item>
+              <List.Item as='a'>Home</List.Item>
+              <List.Item as='a'>About Us</List.Item>
+              <List.Item as='a'>Restaurants</List.Item>
+              <List.Item as='a'>Map</List.Item>
             </List>
           </Grid.Column>
           <Grid.Column width={3}>
-            <Header inverted as='h4' content='Group 3' />
+            <Header inverted as='h4' content='Become A Food Critic!' />
             <List link inverted>
-              <List.Item as='a'>Link One</List.Item>
-              <List.Item as='a'>Link Two</List.Item>
-              <List.Item as='a'>Link Three</List.Item>
-              <List.Item as='a'>Link Four</List.Item>
+              <List.Item as='a'>Learn More</List.Item>
+              <List.Item as='a'>Food Critic Profiles</List.Item>
+              <List.Item as='a'>How We Review</List.Item>
+              <List.Item as='a'></List.Item>
             </List>
           </Grid.Column>
           <Grid.Column width={7}>
